@@ -1,96 +1,71 @@
-# DREADED-BOT
-
-***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
-
-
-# DISCLAIMER
-
-***Do not modify, omit or edit the credits given else we can take illegal/legal action! 
-This applies to forks and ctrlCctrlV(imports)***
-
-## FEATURES
-This is a highly customisable simple whatsapp bot with group management features and few media commands and chatgpt courtesy of openai APIs.
-
-You will need an openai API key for AI features to work.
-
-# SET-UP
-
-Linking/Pairing:
+ <p align="center">  
+  <a href="">
+    <img alt="Nelson-AI-BOT" width="600" height="350" src="https://telegra.ph/file/f90bc1ca315eed9f1de34.jpg">
+  </a>
+</p>
 
 
-## ` Pair On reptil`
-<h2 align="left">  <a href="https://replit.com/@botdreaded/Pairing-Dreaded"><img src="https://repl.it/badge/github/quiec/whatsasena" />
-</a>
-</h2>
 
-Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusmokaya/DREADED-PAIRING)
+<p align="center">
+<a href="https://github.com/officialnel254/Nelson-AI-BOT"><img title="Author" src="https://img.shields.io/badge/THE Nelson-AI-BOT -black?style=for-the-badge&logo=github"></a>
+<p/>
 
-    
-<h2 align="center">   
-
-- Fork this repo by tapping  [here](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/fork)
-
-
-- Upload the creds.json that you received to the dreaded1 folder.
-
-- Connect your fork to any suitable cloud host and deploy.
-
-- Add the environmental variables in .env into your hosting site for bot to work.
-</h2>
+<p align="center">
+<a href="https://github.com/officialnel254?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/officialnel254?label=Followers&style=social"></a>
+<a href="https://github.com/officialnel254/Nelson-AI-BOT"><img title="Stars" src="https://img.shields.io/github/stars/officialnel254/Nelson-AI-BOT?&style=social"></a>
+<a href="https://github.com/officialnel254/Nelson-AI-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/officialnel254/Nelson-AI-BOT?style=social"></a>
+<a href="https://github.com/officialnel254/Nelson-AI-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/officialnel254/Nelson-AI-BOT?label=Watching&style=social"></a>
+</p>
  
-     
+<h1 align="center">Nelson-AI-BOT</h1>
 
-     
+<h2 align="left">ＳＥＳＳＩＯＮ ＩＤ (ＰＡＩＲ ＣＯＤＥ)</h2>
+<p align="left">
+<a href="https://replit.com/@LinusOduor/Pairing-Nelson-AI-BOT"><img height= "40" title="Author" src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=replit"></a>
+ <h2 align="left">CONNECT WITH ME VIA WHATSAPP</h2>
+<p/>
+<a href="https://wa.me/254748580678"><img height= "40" title="Author" src="https://img.shields.io/badge/WHATSAPP-black?style=for-the-badge&logo=whatsapp"></a
+                                                                                                                                                           
+                                                                                                                                                           
+****
 
- 
 
 
 
-Termux procedure is given below.
- 
+<h1 align="left">ÐΣPLOY TO HΣЯOKU</h1> 
 
-**Install Via Termux locally✅**
+#### 1. If You don't have an account in Heroku. Create an account.
+<br>
+       <p align="left"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+After creating your heroku account pair your whatsapp number with the bot using replit link above and get session file then
+Fork the repo and upload the session file to your repo, after that use the above link to deploy your bot directly to heroku: https://dashboard.heroku.com/new?template=( replace with your github fork repo)
 
 
-```bash
-$ pkg install git nodejs -y
-$ git clone https://github.com/Fortunatusmokaya/DREADED-GPT-AI
-$ cd DREADED-GPT-AI
-$ npm install
+<h1 align="left">ÐΣPLOY TO REPLIT</h1> 
+
+1. If You don't have an account in Replit. Create a account.
+    <br>
+<p align="left"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-purple?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+
+
+### TERMUX
+1. 
+```sh
+$ pkg upgrade -y && pkg update -y
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ git clone https://github.com/officialnel254/Nelson-AI-BOT
+$ cd Nelson-AI-BOT
+$ npm i 
+$ npm start
 ```
+2. Wait for the to start...
+3. Scan the QR code from the second device. (Go to WhatsApp > Linked Devices > Link a Device) 
+---------
 
+<h2 align="left">All Credits To officialnel254</h2>
 
-**Running the bot**
-```bash
-$ node index.js
-```
-
-# Credits
-
-Thanks to...
-
-<div align="center">
+<a href="https://github.com/officialnel254"><img src="https://telegra.ph/file/f90bc1ca315eed9f1de34.jpg" width="70" height="70" alt="Nelson-AI-BOT"/></a>
   
-| [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
-|----|
-* [`Fortunatus mokaya`](https://github.com/Fortunatusmokaya) ***Author, Owner***
-
-* [`DikaArdnt`](https://github.com/DikaArdnt) ***For Hisoka Base***
-* [`Adiwajshing`](https://github.com/WhiskeySockets/Baileys) ***Baileys Library***
-* [`WaSocket Discord`](https://discord.gg/WeJM5FP9GG) ***Maintaining the bot libs***
-
-* 
-
----
-
-Incase of any issues, contact me  [here](https://wa.me/+254114018035) via WhatsApp or [here](mokayafortunatus@gmail.com) via Email.
-
-Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
-
-
-## License
-
-[MIT License](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/blob/main/LICENSE)
-
-Copyright (c) 2023 Dreaded-GPT-AI
-
