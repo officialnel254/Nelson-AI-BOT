@@ -432,7 +432,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
   
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ DREADED-AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ Nelson-AI-BOT ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -565,7 +565,7 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `Nelson-AI-BOT`,
                                 body: `A simple WhatsApp bot.`,
-                                thumbnail: fs.readFileSync('./dreaded.jpg'),
+                                thumbnail: fs.readFileSync('./Nelson.jpg'),
                                 sourceUrl: `https://github.com/officialnel254/Nelson-AI-BOT`,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
