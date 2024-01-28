@@ -1,5 +1,5 @@
 {
-  "name": "DREADED BOT",
+  "name": "Nelson-AI-BOT",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -14,13 +14,13 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI#readme",
-  "repository": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI.git",
-  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "website": "https://github.com/officialnel254/Nelson-AI-BOT#readme",
+  "repository": "https://github.com/officialnel254/Nelson-AI-BOT.git",
+  "logo": "https://telegra.ph/file/f90bc1ca315eed9f1de34.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of dreaded bot Ex: . , / , # , & etc. Put any symbol",
+      "description": "Prefix of Nelson-AI-BOT Ex: . , / , # , & etc. Put any symbol",
       "required": true
 
     },
