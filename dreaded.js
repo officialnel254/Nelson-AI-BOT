@@ -47,9 +47,9 @@ const Heroku = require("heroku-client");
  const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
-//const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'dreaded BOT';
-const antibot = process.env.ANTIBOT || 'TRUE';
+const autobio = process.env.AUTOBIO || 'FALSE';
+const botname = process.env.BOTNAME || 'Nelson-AI-BOT';
+const antibot = process.env.ANTIBOT || 'FALSE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
@@ -80,18 +80,18 @@ const antibot = process.env.ANTIBOT || 'TRUE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR || 'fortunatus';
-const maindev = '254114018035';
+    const author = process.env.STICKER_AUTHOR || 'officialnel254';
+const maindev = '254748580678';
 const maindev2 = maindev.split(",");
 
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+    const packname = process.env.STICKER_PACKNAME || 'Nelson-AI-BOT';
+const dev = process.env.DEV || '254748580678'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
-    const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
+    const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-    const autoread = process.env.AUTOREAD || 'TRUE';
+    const autoread = process.env.AUTOREAD || 'FALSE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     // Group
@@ -106,8 +106,8 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const botAdmin = process.env.BOT_ADMIN_MSG || 'Am I an admin?'
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const wapresence = process.env.WA_PRESENCE || 'recording';
-const antilink = process.env.ANTILINK || 'TRUE';
-const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
+const antilink = process.env.ANTILINK || 'FALSE;
+const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
 
 function _0xfb25(_0x4763fd, _0xf70ff) {
     const _0x6abf0e = _0x1492();
@@ -278,7 +278,7 @@ function _0x11cc() {
         'split',
         '84AXXWgJ',
         '4435424UJQIXb',
-        'y\x20Dreaded\x20',
+        'y\x20Nelson-AI-BOT\x20',
         'TRUE',
         '𝘵𝘪𝘉𝘰𝘵:\x0a\x0a@',
         '\x20as\x20a\x20bot.',
@@ -301,7 +301,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝘋𝘳𝘦𝘢𝘥𝘦𝘥\x20𝘈𝘯',
+        'Nelson-AI-BOT\x20𝘈𝘯',
         '376590puyzhN',
         'key'
     ];
@@ -449,11 +449,11 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `╭════〘 𝗗𝗥𝗘𝗔𝗗𝗘𝗗 〙═⊷❍
+let cap = `╭════〘 Nelson-AI-BOT 〙═⊷❍
 ┃╭─────────
 ┃✯│𝙐𝙨𝙚𝙧 : ${m.pushName}
 ┃✯│𝙋𝙞𝙣𝙜 :  ${dreadedspeed.toFixed(4)}ms
-┃✯│𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 : None
+┃✯│𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 : LINUX
 ┃╰─────
 ╰─────────❍
          𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿
@@ -539,14 +539,14 @@ let cap = `╭════〘 𝗗𝗥𝗘𝗔𝗗𝗘𝗗 〙═⊷❍
      
     ╰──────────❍
     
-       𝐷𝑟𝑒𝑎𝑑𝑒𝑑 𝐵𝑜𝑡 ★
+       Nelson-AI-BOT ★
        
 
 ╰═══════════════⊷❍`;
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./menu.mp4'),
+                        video: fs.readFileSync('./Nelson.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
@@ -556,17 +556,17 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f90bc1ca315eed9f1de34.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `DREADED BOT`,
+                                title: `Nelson-AI-BOT`,
                                 body: `A simple WhatsApp bot.`,
                                 thumbnail: fs.readFileSync('./dreaded.jpg'),
-                                sourceUrl: `https://github.com/Fortunatusmokaya/DREADED-GPT-AI`,
+                                sourceUrl: `https://github.com/officialnel254/Nelson-AI-BOT`,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
