@@ -830,7 +830,7 @@ function _0x2be2() {
         ':;;Kenya;;',
         'ttps://ins',
         'sendMessag',
-        'DREADED\x20DE',
+        'Nelson-AI-BOT\x20DE',
         'BEGIN:VCAR'
     ];
     _0x2be2 = function () {
