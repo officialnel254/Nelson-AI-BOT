@@ -65,7 +65,7 @@ $ npm start
 3. Scan the QR code from the second device. (Go to WhatsApp > Linked Devices > Link a Device) 
 ---------
 
-<h2 align="left">Credits To officialnel254</h2>
+<h2 align="left">Credits To officialnel254 and Lino7902</h2>
 
 <a href="https://github.com/officialnel254"><img src="https://telegra.ph/file/f90bc1ca315eed9f1de34.jpg" width="70" height="70" alt="Nelson-AI-BOT"/></a>
-  
+<a href="https://github.com/Lino7902"><img src="https://telegra.ph/file/3c880d7298640199eca25.jpg" width="70" height="70" alt="AKLinus"/></a>  
